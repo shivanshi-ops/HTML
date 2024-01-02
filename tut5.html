@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heading Paragraphs and Emmet</title>
+    <style>
+        .subheading {
+          margin-left: 20px;
+        }
+      </style>
+</head>
+<body>
+    <!-- List the heading tags in HTML and provide an example for each. -->
+    <h1>This is a Heading 1</h1>
+    <h2>This is a Heading 2</h2>
+    <h3>This is a Heading 3</h3>
+    <h4>This is a Heading 4</h4>
+    <h5>This is a Heading 5</h5>
+    <h6>This is a Heading 6</h6>
+    <!-- Describe the hierarchy of HTML headings. How does it affect the document structure? -->
+    <h1>Main Title</h1>
+        <h2>Section 1</h2>
+            <h3>Section 1.2</h3>
+            <h3>Section 1.3</h3>
+        <h2>Section 2</h2>
+            <h3>Section 2.1</h3>
+                <h4>Section 2.1.1</h4>
+                <h4>Section 2.1.2</h4>
+            <h3>Section 2.2</h3>
+    <h1>Another Main Title</h1>
+    <!-- What is the HTML tag used to create paragraphs? -->
+    <p>This is a paragraph of text in HTML.It can contain multiple sentences and paragraphs can be used to organize and structure content.</p>
+    <!-- How can you align text within a paragraph in HTML? Provide an example. -->
+    <p style="text-align: center;">This is a centered paragraph.</p>
+    <p style="text-align: left;">This is a lefted paragraph.</p>
+    <p style="text-align: right;">This is a righted paragraph.</p>
+    <!-- Create an HTML document with at least three different headings and corresponding paragraphs. -->
+    <h1>Main Heading</h1>
+    <p>This is the main content of the document. It might include an introduction or an overview of the page.</p>
+    <h2>Section 1</h2>
+    <p>This is the content for the first section. It could provide more details or specific information related to the main heading.</p>
+    <h3>Subsection 1.1</h3>
+    <p>This is a subsection under Section 1, providing even more detailed information.</p>
+    <h2>Section 2</h2>
+    <p>This is the content for the second section. It might cover a different topic or the aspect of the main heading.</p>
+    <h3>Subsection 2.1</h3>
+    <p>This a subsection under Section 2, offering additional information related to the second section.</p>
+    <!-- How can you change the color of a specific heading using inline CSS? -->
+    <h1 style="color: red;">This is a red heading.</h1>
+    <p>This is some content below the heading.</p>
+    <h1 style="color: blue;">This is a blue heading.</h1>
+    <p>This is some content below the heading.</p>
+    <h1 style="color: #008000;">This is a green heading.</h1>
+    <p>This is some content below the heading.</p>
+    <!-- Describe the typical structure of an HTML document containing headings and paragraphs. -->
+    <header>
+        <!-- Your site's header content, such as a logo, navigation menu, etc. -->
+        <h1>Main Heading or Site Title</h1>
+      </header>
+      <nav>
+        <!-- Your navigation menu or links go here -->
+      </nav>
+    
+      <main>
+        <article>
+          <h2>Section 1</h2>
+          <p>This is the content of Section 1.</p>
+    
+          <h3>Subsection 1.1</h3>
+          <p>Details for Subsection 1.1 go here.</p>
+    
+          <h3>Subsection 1.2</h3>
+          <p>Details for Subsection 1.2 go here.</p>
+        </article>
+    
+        <article>
+          <h2>Section 2</h2>
+          <p>This is the content of Section 2.</p>
+          <h3>Subsection 2.1</h3>
+          <p>Details for Subsection 2.1 go here.</p>
+          <h3>Subsection 2.2</h3>
+          <p>Details for Subsection 2.2 go here.</p>
+        </article>
+      </main>
+
+    <footer>
+    <!-- Your site's footer content, such as copyright information, links, etc. -->
+    </footer>
+    <!-- How do headings contribute to the outline of an HTML document? -->
+    <h1>Main Heading</h1>
+    <p>This is the introduction.</p>
+
+    <h2>Section 1</h2>
+    <p>Content of Section 1.</p>
+
+    <h3>Subsection 1.1</h3>
+    <p>Details for Subsection 1.1.</p>
+
+    <h2>Section 2</h2>
+    <p>Content of Section 2.</p>
+    <!-- Explain the "id" attribute and how it can be used with headings. -->
+    <h1 id="main-heading">Main Heading</h1>
+  <p>This is the introduction.</p>
+
+  <h2 id="section-1">Section 1</h2>
+  <p>Content of Section 1.</p>
+
+  <h3 id="subsection-1-1">Subsection 1.1</h3>
+  <p>Details for Subsection 1.1.</p>
+
+  <h2 id="section-2">Section 2</h2>
+  <p>Content of Section 2.</p>
+  <!-- Describe how to make text bold and italic within a paragraph using HTML. -->
+  <p>This is a <strong>bold</strong> and <em>italic</em> text within a paragraph.</p>
+  <p>This is a <b>bold</b> and <i>italic</i> text within a paragraph.</p>
+  <!-- How can you create a line break within a paragraph without starting a new paragraph? -->
+  <p>This is some text with a line break.<br> The content after the line break is on a new line.</p>
+  <!-- What is the difference between using <div> and semantic elements like <article> or <section> for grouping content? -->
+    <div class="article">
+        <div class="article-header">
+          <h2>Article Title</h2>
+        </div>
+        <div class="article-content">
+          <p>This is the content of the article.</p>
+        </div>
+        <div class="article-footer">
+          <p>Published on January 1, 2023</p>
+        </div>
+      </div>
+      <article>
+        <header>
+          <h2>Article Title</h2>
+        </header>
+        <p>This is the content of the article.</p>
+        <footer>
+          <p>Published on January 1, 2023</p>
+        </footer>
+      </article>
+      <!-- How can you use headings to enhance the semantic structure of your HTML document?-->
+      <h1>Main Heading</h1>
+<p>Introduction or main content.</p>
+
+<h2>Section 1</h2>
+<p>Content of Section 1.</p>
+
+<h3>Subsection 1.1</h3>
+<p>Details for Subsection 1.1.</p>
+
+<h2>Section 2</h2>
+<p>Content of Section 2.</p>
+<h2>Benefits of Regular Exercise</h2>
+<article>
+    <header>
+      <h2>Article Title</h2>
+    </header>
+    <p>Article content.</p>
+    <footer>
+      <p>Published on January 1, 2023</p>
+    </footer>
+  </article>
+  <!-- Is it valid to nest one heading inside another? Explain.-->
+  <h1>Main Heading</h1>
+<h2>Subheading</h2>
+<!-- Provide an example of a situation where nesting headings might be useful. -->
+<h1>Main Heading</h1>
+  <div class="subheading">
+    <h2>Subheading 1</h2>
+    <p>Content for Subheading 1.</p>
+  </div>
+  <div class="subheading">
+    <h2>Subheading 2</h2>
+    <p>Content for Subheading 2.</p>
+    <!-- Discuss best practices for creating accessible headings in HTML documents. -->
+    <h1>Main Heading</h1>
+<h2>Subsection 1</h2>
+<h2>Subsection 2</h2>
+<h3>Sub-subsection</h3>
+<h2>Benefits of Regular Exercise</h2>
+<section>
+    <h2>Section Title</h2>
+    <!-- Content for the section -->
+  </section>
+  <section>
+    <h2>Section Title</h2>
+    <!-- Content for the section -->
+  </section>
+  <a href="#main-content" class="skip-to-content">Skip to Content</a>
+  <h2><img src="image.jpg" alt="Illustration of Healthy Eating"></h2>    
+</body>
+</html>
